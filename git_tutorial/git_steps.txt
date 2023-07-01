@@ -10,4 +10,10 @@ Változás kezelése git-ben:
 1. új fileok - untracked státusz
 2. stage-elem a file-okat -> ezt az állapotot már részben figyelembe veszi a git, és hozzá képest külön
 meg tudja nekem mutatni a változást
-3. commitált állapot - ez egy olyan állapot, amire bármikor vissza tudunk állni
+3. commitált állapot - ez egy olyan állapot, amire bármikor vissza tudunk állni,
+ez egy mentett állapota a fejlesztésemnek
+
+
+branch:  "a pointer to a snapshot of your changes"
+snapshot - commit
+1 branchen több commit-od lesz, amely gyakorlatilag a fejlesztés naplózása
