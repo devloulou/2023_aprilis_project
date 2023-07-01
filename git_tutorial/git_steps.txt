@@ -1,0 +1,13 @@
+Üres git repository készítése: git init
+Ez létrehoz egy .git rejtett mappát, emiatt történik meg a git kezelés -> verzió kezelés
+
+git init parancs kiadása után: 
+minden file-om az első státuszba kerül -> untracked files -> azt jelenti, hogy a git számára
+még nincs verziózva
+
+Változás kezelése git-ben:
+
+1. új fileok - untracked státusz
+2. stage-elem a file-okat -> ezt az állapotot már részben figyelembe veszi a git, és hozzá képest külön
+meg tudja nekem mutatni a változást
+3. commitált állapot
