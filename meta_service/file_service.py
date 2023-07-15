@@ -32,9 +32,14 @@ class FileService:
         
         temp = []
         for item in os.listdir(folder_path):
-            temp.append(item[0:-4])
+            temp.append(item.split('.')[0])
 
         return temp
+    
+    @staticmethod
+    def remove_file(file_path):
+        if os.path.exists(file_path):
+            os.remove(file_path)
 
 if __name__ == '__main__':
     from config import MOVIES_PATH
