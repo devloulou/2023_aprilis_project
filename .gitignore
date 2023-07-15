@@ -1,4 +1,4 @@
 # add virtualenv
 venv
-.vscode/
-meta_service/__pycache__/
+.vscode
+meta_service/__pycache__
