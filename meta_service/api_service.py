@@ -32,7 +32,5 @@ if __name__ == '__main__':
             continue
 
         url = api.get_image_url(movie['poster_path'])
-
-        print(url)
         # ide jön a json kiírás
         # ide jön a képkiírás
