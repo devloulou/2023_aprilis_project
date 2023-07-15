@@ -4,8 +4,8 @@ class ApiService:
     tmdb.API_KEY = '454b6ca4172e455fe7a7d8395c10d6d9'
     web_url = "https://image.tmdb.org/t/p/original"
 
-    def __init__(self):
-        self.search = tmdb.Search()
+    def __init__(self, search: tmdb.Search): # type hint
+        self.search = search
 
     def get_meta_data(self, movie):
         data = self.search.movie(query=movie)['results']
@@ -21,7 +21,7 @@ class ApiService:
     
 
 if __name__ == '__main__':
-    api = ApiService()
+    api = ApiService(tmdb.Search())
     # elvárt működés tesztelése -> 'Happy Path' tesztelés
 
     for item in ['Vukk', 'Prey', 'Predator']:
