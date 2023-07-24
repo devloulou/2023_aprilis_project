@@ -33,3 +33,16 @@ Dockerfile használat
 docker-compose használatot - container orchestration
 
 """
+
+"""
+Docker flow:
+
+Készítenem kell egy Dockerfile -t. 
+        -> Buildelek egy Image-et belőle 
+                -> docker run image 
+                        -> így jön létre a container, ami már a futó, végleges termék
+-----------------------------------------------------------------------------
+dockerhubról letöltöm az imaget ->
+        -> docker run image 
+                -> így jön létre a container, ami már a futó, végleges termék         
+"""
