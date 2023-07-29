@@ -4,3 +4,9 @@ Modulok:
 2. file service
 
 """
+
+"""
+Postgres solution lépések és tennivalók:
+
+
+"""

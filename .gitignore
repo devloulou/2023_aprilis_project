@@ -2,3 +2,4 @@
 venv
 .vscode
 meta_service/__pycache__
+meta_service/db_service/__pycache__
