@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  postgres_meta:
+    build: .
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5465:5432"
+    volumes:
+      - db1:/var/lib/posgresql/data
+
+volumes:
+  db1:
